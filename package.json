@@ -1,0 +1,19 @@
+{
+  "name": "ang_learn_march_022024_started",
+  "version": "1.0.0",
+  "description": "This is my Anguler Certification learning\r -------------------------------------------\r Author -- Ravishankar Singh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "node"
+  ],
+  "author": "developerfunule",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "rxjs": "^7.8.1"
+  }
+}
