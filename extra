@@ -1,1 +1,171 @@
-https://www.youtube.com/watch?v=Ez8F0nW6S-w&t=1538s
+https://www.youtube.com/watch?v=Ez8F0nW6S-w&t=1538sDe
+
+https://code.visualstudio.com/  > Install
+https://nodejs.org/en > Install
+https://git-scm.com/downloads > Install
+https://github.com/ > Create Account
+https://github.com/Aakashdeveloper > Follow
+
+extension vscode
+> vscode icons
+> gitlens
+> githistory
+> spellcheck
+> tabnine
+
+
+Npm
+FullStack Zomato app
+Template Forms
+Reactive Forms
+Login logout (jwt)
+Dummy api
+Deployment
+> Angular over node server
+> Angular over python server
+> Netlify(https://www.netlify.com/)
+> Github
+> AWS
+> Jenkins
+> nginx
+> Docker 
+> Github Actions
+LazyLoading
+Testing
+Zomato+login logout
+//////////////////////
+Ang Material
+Multilingual
+Zomato + Google Login
+Payment
+
+>>>>>>>>NO Covered<<<<<>>>>>
+> HTML CSS JAVASCRIPT
+> No Api Building (app,loginlogout)
+
+
+open source
+
+////
+***Package.json***
+> Entry point to app
+> Meta data(version, description, package, commands)
+
+/// Step to generate package.json
+** Nodejs must be install in laptop
+> open the cmd/terminal and go inside the folder
+> npm init
+> answer all question
+> type "yes"
+
+
+/// Step to install packages
+** Nodejs must be install in laptop
+> open the cmd/terminal and go inside the folder
+> npm i packagename
+
+
+package-lock > have dependency tree for child package
+node_modules > have all the package we installed in app
+.gitignore > to avoid pushing code to git
+
+local
+> Local to the folder
+> Can be used inside this folder only
+
+global
+> install in laptop
+> use to generate angular app
+> need admin permision to install
+
+//step to generate angular app
+# one time
+# window
+> open cmd as admin
+> npm i -g @angular/cli
+
+# next all tine
+> open cmd
+> go inside particular folder
+> ng new appname
+
+# one time
+# mac
+> open terminal
+> sudo npm i -g @angular/cli
+
+# next all tine
+> open terminal
+> go inside particular folder
+> ng new appname
+
+
+
+Angular
+> Frontend Framework that help to build the 
+single page application with component based structure
+
+
+/////File Walkthrough////
+Package.json> Entry point to app and Meta data(version, description, package, commands)
+package-lock > have dependency tree for child package
+node_modules > have all the package we installed in app
+.gitignore > to avoid pushing code to git
+Readme.md > Detail description and its a static file
+.editotconfig > Make code compitable for editor and same accross developer
+karma.conf> use to configuration releated to test case
+tsconfig.json > Provide application which version of javascript to target and other compliation
+tsconfig.app.json > configure for whole app to run with typescript.
+.browserslistrc > Make code compitable for browser
+angular.json
+    > Main configuration of app
+    > which is first .ts file to pick
+    > which css or html to refer
+
+>>>>>>>>src
+polyfills > make compitable with browser
+style.css > common css fro whole app
+favicon.icon > image displyed on browser
+test.ts > used by karma as configuration
+main.ts > first .ts help to bootstrap and help to load first modules
+index.html> first html file load in load in browser
+/assests > all static thing mostly images
+/app > all development happen here
+
+
+
+///////////
+package.json > angular.json> main.ts > app.modules.ts > app.component.ts > index.html
+
+browser > index.html
+
+
+npm i -g @angular/cli@15
+
+https://update.angular.io/?v=15.0-17.0
+
+
+///////////Angular Building block
+Modules
+# ngModule
+* Parent of app
+* All the declaration will happen here
+
+Components
+# component
+* html css
+* logics
+
+Pipes
+# pipe & pipetransform
+* Run time data manipulation
+
+Services
+# Injectable
+* To connect with external agent
+* Dependency Injection
+
+Routing
+# ngModule
+* To navigate between the pages
+* TO achieve single page application
