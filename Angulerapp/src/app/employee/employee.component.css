@@ -1,0 +1,10 @@
+.tbl{
+    width: 100%;
+    border:none
+      }
+  .th{ font-weight:bolder  ;
+    width:fit-content;
+height: 50px;
+background-color:rgb(23, 28, 29);
+color: white;
+}
