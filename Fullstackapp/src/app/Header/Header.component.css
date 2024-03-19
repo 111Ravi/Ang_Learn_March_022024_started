@@ -1,10 +1,16 @@
 
-        div{
+        div
+        {
             text-align:center;
             color:teal
         }
-        .subHeading{
+        .subHeading
+        {
             text-align:center;
             color:green
         }
-    
+        .myimg
+        {
+            height:100px;
+            width: 100px;
+        }
