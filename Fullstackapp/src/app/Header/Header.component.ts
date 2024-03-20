@@ -7,8 +7,4 @@ import { Component } from '@angular/core';
     })
 
 export class HeaderComponent{
-
-
-    title='learning with Devloper funnel.'
-    imgurl='https://b.zmtcdn.com/data/pictures/4/307374/b2b03be3aba61b0f173aa23e1abdb42b.jpg'
 }
