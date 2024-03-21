@@ -3,12 +3,13 @@
         <span>D!</span>
     </div>
     <div id="heading">
-       
+        {{title}}
     </div>
     <div id="dropdown">
         <select>
             <option>----Select Your City----</option>
-            
+<option *ngFor="let loc of cities">{{loc.state | MyCustomePipe:'Upper'}}</option>
+
         </select>
         <select class="restSelect">
             <option>----Select Your Restaurants----</option>

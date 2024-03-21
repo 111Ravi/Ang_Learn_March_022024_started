@@ -6,6 +6,7 @@ import { FooterComponent } from './Footer/footer.component';
 import { HomeComponent } from './Home/home.component';
 import { SearchComponent } from './Home/Search/search.component';
 import { QuickSearchComponent } from './Home/QuickSearch/quicksearch.component';
+import { MyUpperPipe } from './pipe/Myupper.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { QuickSearchComponent } from './Home/QuickSearch/quicksearch.component';
     FooterComponent,
     HomeComponent,
     SearchComponent,
-    QuickSearchComponent
+    QuickSearchComponent,
+    MyUpperPipe
   ],
   imports: [
     BrowserModule,

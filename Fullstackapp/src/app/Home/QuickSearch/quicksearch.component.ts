@@ -6,4 +6,7 @@ import { Component } from "@angular/core";
     templateUrl:'./quicksearch.component.html',
     styleUrls:['./quicksearch.component.css',]
 })
-export class QuickSearchComponent{}
+export class QuickSearchComponent{
+
+    
+}
