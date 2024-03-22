@@ -8,6 +8,7 @@ import { HomeComponent } from './Home/home.component';
 import { SearchComponent } from './Home/Search/search.component';
 import { QuickSearchComponent } from './Home/QuickSearch/quicksearch.component';
 import { MyUpperPipe } from './pipe/myupper.pipe';
+import { HomeService } from './services/home.services';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import { MyUpperPipe } from './pipe/myupper.pipe';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [HomeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
