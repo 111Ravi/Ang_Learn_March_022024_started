@@ -7,7 +7,7 @@ import { HomeService } from "src/app/services/home.services";
 
     selector:'app-search',
     templateUrl:'./search.component.html',
-    styleUrls:['./search.component.css']
+    styleUrls:['./search.component.css',]
 })
 export class SearchComponent{
     title:string = "Find Best Place Near You";
