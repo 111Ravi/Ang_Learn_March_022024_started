@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { ICity } from '../model/location.model';
 import { IRest } from '../model/rest.model'
-
+import { IMeal } from '../model/meal.model';
 @Injectable({
     providedIn:'root'
 })
@@ -20,5 +20,7 @@ export class HomeService{
     getRestWrtCity(stateId:number):Observable<IRest[]>{
      return this.http.get<IRest[]>(`${this.base_url}/restaurant?stateId=${stateId}`)
     }
-    
+    getMeal():Observable<IMeal[]>{
+        return this.http.get<IMeal[]>(`${this.base_url}/quicksearch`)
+    }
 }
