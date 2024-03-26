@@ -1,20 +1,21 @@
-import { Component } from "@angular/core";
-import { ICity } from "src/app/model/location.model";
-import { IRest } from "src/app/model/rest.model";
-import { HomeService } from "src/app/services/home.services";
-@Component
-({
-
+import {Component,OnInit} from '@angular/core';
+import { ICity } from '../../model/location.model';
+import { IRest } from '../../model/rest.model';
+import { HomeService } from 'src/app/services/home.services';
+@Component({
     selector:'app-search',
     templateUrl:'./search.component.html',
-    styleUrls:['./search.component.css',]
+    styleUrls:['./search.component.css']
 })
-export class SearchComponent{
+
+export class SearchComponent implements OnInit{
     title:string = "Find Best Place Near You";
+
+
     cities:ICity[]= []
     restaurants:IRest[]=[]
     disabled:boolean = true
-    
+
     // anything that need to declare
     constructor(private homeService:HomeService){
       console.log(">>>>>inside constructor")
@@ -41,5 +42,12 @@ export class SearchComponent{
       }else{
         this.disabled = true
       }
+     
     }
+
+   
 }
+
+// currentDate:Date = new Date()
+// price:number = 100
+// myData = {name:'Kriti', age:20}

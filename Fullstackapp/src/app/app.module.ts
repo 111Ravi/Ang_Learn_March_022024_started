@@ -9,6 +9,9 @@ import { SearchComponent } from './Home/Search/search.component';
 import { QuickSearchComponent } from './Home/QuickSearch/quicksearch.component';
 import { MyUpperPipe } from './pipe/myupper.pipe';
 import { HomeService } from './services/home.services';
+import { ListingComponent } from './listing/listing.component';
+import { AppRoutingModule } from './app-routing.module';
+import { listingService } from './services/listing.service';
 
 @NgModule({
   declarations: [
@@ -18,13 +21,16 @@ import { HomeService } from './services/home.services';
     HomeComponent,
     SearchComponent,
     QuickSearchComponent,
-    MyUpperPipe
+    MyUpperPipe,
+    ListingComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
-  providers: [HomeService],
+  providers: [HomeService,
+  listingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
