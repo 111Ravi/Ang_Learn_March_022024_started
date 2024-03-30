@@ -4,9 +4,9 @@ import { FormsComponent } from './forms/forms.component';
 import { AfterSubmitComponent } from './after-submit/after-submit.component';
 
 const routes: Routes = [
-  {path:'after',component: AfterSubmitComponent},
-  {path:'home',component: FormsComponent},
-  {path:'',component: FormsComponent}
+  {path:'after',component:AfterSubmitComponent},
+  {path:'home',component:FormsComponent},
+  {path:'',component:FormsComponent}
 ];
 
 @NgModule({
