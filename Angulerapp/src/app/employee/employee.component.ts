@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { employee } from './employee';
+import { Component, OnInit } from '@angular/core';
+import { Employee } from './employee';
 
 @Component({
   selector: 'app-employee',
@@ -7,12 +7,25 @@ import { employee } from './employee';
   styleUrls: ['./employee.component.css']
 })
 export class EmployeeComponent {
-employee_id=1;
-first_name=`Ravi`;
-last_name="Singh";
-salary=50000;
-dob="5/07/1988";
-email="ravi.soft111@gmail.com";
+
+
+/*employee:Employee[];
+//selectedemployee:Employee[];
+//constructor(){}
+ngOnInit() {
+  this.employee=[
+    
+    {*/
+      Employee_ID=1;
+      First_Name='Ravi';
+      Last_Name='Singh';
+      Salary=50000;
+      DOB='5/07/1988';
+      Email='ravi.soft111@gmail.com';
+ /* }
+]
+}*/
+
 handleClick(){
   console.log('Button Clicked')
 }

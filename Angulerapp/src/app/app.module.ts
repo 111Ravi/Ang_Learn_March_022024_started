@@ -1,5 +1,8 @@
-import { Component, NgModule } from '@angular/core';
+
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from'@angular/core';
+import { FormsModule } from '@angular/forms';
+import {AppRoutingModule} from './AppRoutingModule'
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component'
 
@@ -11,7 +14,9 @@ import { EmployeeComponent } from './employee/employee.component'
 
     ],
     imports:[
-BrowserModule
+BrowserModule,
+FormsModule,
+AppRoutingModule
     ],
     providers:[
 

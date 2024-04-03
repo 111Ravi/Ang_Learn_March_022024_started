@@ -1,4 +1,4 @@
-export interface employee
+export interface Employee
 {
     Employee_ID: number,
     First_Name: string,
